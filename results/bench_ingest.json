@@ -1,0 +1,11 @@
+{
+  "machine": "arm64",
+  "python": "3.9.6",
+  "note": "single thread, in process, Apple silicon",
+  "total_rows": 15835,
+  "runs": 5,
+  "best_seconds": 0.1655,
+  "median_seconds": 0.1667,
+  "rows_per_sec_best": 95689.0,
+  "rows_per_sec_median": 95004.3
+}

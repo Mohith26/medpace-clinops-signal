@@ -1,0 +1,33 @@
+{
+  "seed": 7,
+  "n_subjects": 3000,
+  "n_ae_reports_clean": 2329,
+  "universe_pairs": 360,
+  "injected_signals": 25,
+  "base_event_rate": 0.02,
+  "signal_multiplier": 6.0,
+  "prr": {
+    "method": "prr",
+    "pairs_evaluated": 360,
+    "injected_signals": 25,
+    "tp": 25,
+    "fp": 3,
+    "fn": 0,
+    "tn": 332,
+    "precision": 0.8928571428571429,
+    "recall": 1.0,
+    "f1": 0.9433962264150945
+  },
+  "ror": {
+    "method": "ror",
+    "pairs_evaluated": 360,
+    "injected_signals": 25,
+    "tp": 25,
+    "fp": 3,
+    "fn": 0,
+    "tn": 332,
+    "precision": 0.8928571428571429,
+    "recall": 1.0,
+    "f1": 0.9433962264150945
+  }
+}

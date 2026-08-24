@@ -1,0 +1,28 @@
+{
+  "machine": "arm64",
+  "python": "3.9.6",
+  "note": "in-process TestClient, single thread, Apple silicon, no network",
+  "requests_per_endpoint": 300,
+  "endpoints": {
+    "/studies": {
+      "p50_ms": 7.115,
+      "p95_ms": 7.885,
+      "mean_ms": 7.189
+    },
+    "/studies/STU-001/metrics": {
+      "p50_ms": 17.995,
+      "p95_ms": 18.695,
+      "mean_ms": 17.9
+    },
+    "/signals?method=prr": {
+      "p50_ms": 1.317,
+      "p95_ms": 1.379,
+      "mean_ms": 1.359
+    },
+    "/quality": {
+      "p50_ms": 0.937,
+      "p95_ms": 1.037,
+      "mean_ms": 0.948
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "notes": {
+    "provenance": "Hand-computed from the published formulas: PRR and its criterion from Evans, Waller, Davis 2001 (Pharmacoepidemiol Drug Saf 10:483-486); ROR and CI from van Puijenbroek et al 2002 (Pharmacoepidemiol Drug Saf 11:3-10); chi-square with Yates continuity correction; Haldane-Anscombe 0.5 correction on zero cells for ROR.",
+    "z": 1.959963984540054
+  },
+  "cases": {
+    "clear_signal": {
+      "a": 10,
+      "b": 90,
+      "c": 20,
+      "d": 880,
+      "prr": 4.5,
+      "prr_ci_low": 2.16764634722123,
+      "prr_ci_high": 9.341929796785843,
+      "ror": 4.888888888888889,
+      "ror_ci_low": 2.219967269354804,
+      "ror_ci_high": 10.766480613404598,
+      "chi2": 16.132111492936236
+    },
+    "boundary_below_threshold": {
+      "a": 3,
+      "b": 97,
+      "c": 30,
+      "d": 1870,
+      "prr": 1.9,
+      "prr_ci_low": 0.5898992384183371,
+      "prr_ci_high": 6.1196892026497345,
+      "ror": 1.9278350515463918,
+      "ror_ci_low": 0.5781965200645177,
+      "ror_ci_high": 6.427828354200696,
+      "chi2": 0.4686578951422555
+    },
+    "zero_cell_b": {
+      "a": 5,
+      "b": 0,
+      "c": 10,
+      "d": 985,
+      "prr": 99.5,
+      "prr_ci_low": 53.703867791369284,
+      "prr_ci_high": 184.34891949423164,
+      "ror": 1032.4285714285713,
+      "ror_ci_low": 53.594188308847684,
+      "ror_ci_high": 19888.513824661703,
+      "chi2": 266.3826747952963
+    },
+    "zero_cell_a": {
+      "a": 0,
+      "b": 100,
+      "c": 50,
+      "d": 850,
+      "prr": 0.0,
+      "prr_ci_low": null,
+      "prr_ci_high": null,
+      "ror": 0.08378897591251662,
+      "ror_ci_low": 0.005130198722308392,
+      "ror_ci_high": 1.3684835353335574,
+      "chi2": 4.7368421052631575
+    },
+    "strong_small": {
+      "a": 6,
+      "b": 14,
+      "c": 4,
+      "d": 976,
+      "prr": 73.49999999999999,
+      "prr_ci_low": 22.468646347010885,
+      "prr_ci_high": 240.4350451988259,
+      "ror": 104.57142857142857,
+      "ror_ci_low": 26.55261795058279,
+      "ror_ci_high": 411.8307164220456,
+      "chi2": 144.76396619253762
+    }
+  }
+}

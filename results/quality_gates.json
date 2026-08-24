@@ -1,0 +1,154 @@
+{
+  "seed": 7,
+  "machine": "arm64",
+  "rows_in_batch": 15835,
+  "per_error_type": [
+    {
+      "table": "adverse_events",
+      "error_type": "duplicate",
+      "injected": 9,
+      "detected": 9,
+      "exact": true
+    },
+    {
+      "table": "adverse_events",
+      "error_type": "invalid_value",
+      "injected": 10,
+      "detected": 10,
+      "exact": true
+    },
+    {
+      "table": "adverse_events",
+      "error_type": "missing_field",
+      "injected": 12,
+      "detected": 12,
+      "exact": true
+    },
+    {
+      "table": "adverse_events",
+      "error_type": "referential_orphan",
+      "injected": 8,
+      "detected": 8,
+      "exact": true
+    },
+    {
+      "table": "subjects",
+      "error_type": "duplicate",
+      "injected": 9,
+      "detected": 9,
+      "exact": true
+    },
+    {
+      "table": "subjects",
+      "error_type": "invalid_value",
+      "injected": 10,
+      "detected": 10,
+      "exact": true
+    },
+    {
+      "table": "subjects",
+      "error_type": "missing_field",
+      "injected": 12,
+      "detected": 12,
+      "exact": true
+    },
+    {
+      "table": "subjects",
+      "error_type": "referential_orphan",
+      "injected": 8,
+      "detected": 8,
+      "exact": true
+    },
+    {
+      "table": "visits",
+      "error_type": "duplicate",
+      "injected": 9,
+      "detected": 9,
+      "exact": true
+    },
+    {
+      "table": "visits",
+      "error_type": "invalid_value",
+      "injected": 10,
+      "detected": 10,
+      "exact": true
+    },
+    {
+      "table": "visits",
+      "error_type": "missing_field",
+      "injected": 12,
+      "detected": 12,
+      "exact": true
+    },
+    {
+      "table": "visits",
+      "error_type": "referential_orphan",
+      "injected": 8,
+      "detected": 8,
+      "exact": true
+    }
+  ],
+  "all_counts_exact": true,
+  "report": {
+    "tables": {
+      "studies": {
+        "table": "studies",
+        "rows_in": 4,
+        "rows_clean": 4,
+        "rows_quarantined": 0,
+        "error_counts": {},
+        "late_records": 0
+      },
+      "sites": {
+        "table": "sites",
+        "rows_in": 60,
+        "rows_clean": 60,
+        "rows_quarantined": 0,
+        "error_counts": {},
+        "late_records": 0
+      },
+      "subjects": {
+        "table": "subjects",
+        "rows_in": 3009,
+        "rows_clean": 2970,
+        "rows_quarantined": 39,
+        "error_counts": {
+          "missing_field": 12,
+          "referential_orphan": 8,
+          "invalid_value": 10,
+          "duplicate": 9
+        },
+        "late_records": 0
+      },
+      "visits": {
+        "table": "visits",
+        "rows_in": 10394,
+        "rows_clean": 10355,
+        "rows_quarantined": 39,
+        "error_counts": {
+          "invalid_value": 10,
+          "referential_orphan": 8,
+          "missing_field": 12,
+          "duplicate": 9
+        },
+        "late_records": 867
+      },
+      "adverse_events": {
+        "table": "adverse_events",
+        "rows_in": 2368,
+        "rows_clean": 2329,
+        "rows_quarantined": 39,
+        "error_counts": {
+          "invalid_value": 10,
+          "referential_orphan": 8,
+          "missing_field": 12,
+          "duplicate": 9
+        },
+        "late_records": 193
+      }
+    },
+    "total_rows_in": 15835,
+    "total_quarantined": 117,
+    "total_late_records": 1060
+  }
+}
